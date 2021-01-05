@@ -13,7 +13,7 @@ class ValidateInquiryForm(FormValidationAction):
     def account_number_db() -> List[Text]:
         return ["012345678912", "012345678913", "012345678914"]
 
-    def validate_cuisine(
+    def validate_account_number(
         self,
         slot_value: Any,
         dispatcher: CollectingDispatcher,
